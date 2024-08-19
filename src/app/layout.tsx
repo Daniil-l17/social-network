@@ -20,7 +20,9 @@ export default function RootLayout({
 	return (
 		<html lang='ru' className='dark'>
 			<body className={inter.className}>
-				<NextUIProvider>{children}</NextUIProvider>
+				<NextUIProvider>
+					<div className='min-h-[100vh] w-full m-auto max-w-[1400px] p-2'>{children}</div>
+				</NextUIProvider>
 			</body>
 		</html>
 	);
