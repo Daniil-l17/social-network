@@ -14,7 +14,7 @@ export const ProfileMenu = () => {
 		<>
 			{loading ? (
 				<Card className='w-[280px] !bg-[#333] h-[390px] space-y-5 p-4' radius='lg'>
-					<Skeleton  className='rounded-lg !bg-[#515151]'>
+					<Skeleton className='rounded-lg !bg-[#515151]'>
 						<div className='h-[280px] rounded-lg bg-default-300'></div>
 					</Skeleton>
 					<div className='space-y-3'>

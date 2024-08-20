@@ -3,11 +3,12 @@ import { Button, Skeleton, useDisclosure } from '@nextui-org/react';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import { Loader } from './Loader/Loader';
 
 const ModalAuth = dynamic(() => import('./ModalAuth'), {
 	loading: () => (
 		<div className='fixed flex justify-center items-center top-0 left-0 right-0 bottom-0'>
-			<p>loading....</p>
+			<Loader />
 		</div>
 	)
 });
