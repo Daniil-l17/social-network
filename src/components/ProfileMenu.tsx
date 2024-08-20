@@ -13,18 +13,18 @@ export const ProfileMenu = () => {
 	return (
 		<>
 			{loading ? (
-				<Card className='w-[280px] h-[390px] space-y-5 p-4' radius='lg'>
-					<Skeleton className='rounded-lg'>
+				<Card className='w-[280px] !bg-[#333] h-[390px] space-y-5 p-4' radius='lg'>
+					<Skeleton  className='rounded-lg !bg-[#515151]'>
 						<div className='h-[280px] rounded-lg bg-default-300'></div>
 					</Skeleton>
 					<div className='space-y-3'>
-						<Skeleton className='w-3/5 rounded-lg'>
+						<Skeleton className='w-3/5 !bg-[#515151] rounded-lg'>
 							<div className='h-3 w-3/5 rounded-lg bg-default-200'></div>
 						</Skeleton>
-						<Skeleton className='w-4/5 rounded-lg'>
+						<Skeleton className='w-4/5 !bg-[#515151] rounded-lg'>
 							<div className='h-3 w-4/5 rounded-lg bg-default-200'></div>
 						</Skeleton>
-						<Skeleton className='w-2/5 rounded-lg'>
+						<Skeleton className='w-2/5 !bg-[#515151] rounded-lg'>
 							<div className='h-3 w-2/5 rounded-lg bg-default-300'></div>
 						</Skeleton>
 					</div>

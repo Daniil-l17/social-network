@@ -28,7 +28,7 @@ export const Header = () => {
 			</div>
 			<div>
 				{loading ? (
-					<Skeleton className='flex rounded-lg w-[80px] h-[40px]' />
+					<Skeleton className='flex rounded-lg !bg-[#333] w-[80px] h-[40px]' />
 				) : (
 					<Button onClick={onOpen} radius='sm' color='primary'>
 						Войти

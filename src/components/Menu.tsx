@@ -22,7 +22,7 @@ export const Menu = () => {
 		<div className='w-[200px] sticky top-[108px] flex flex-col gap-8 h-[300px] '>
 			{loading
 				? [...Array(4)].map(() => {
-						return <Skeleton className='rounded-lg px-3 w-[190px] h-[50px] py-1' />;
+						return <Skeleton className='rounded-lg px-3 !bg-[#333] w-[190px] h-[50px] py-1' />;
 				})
 				: menuLeft.map((item, index) => {
 						return (
